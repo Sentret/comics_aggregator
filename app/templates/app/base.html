@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        {%block title %} {%endblock title%}
+    </title>
+    {% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/css/styles.css' %}" />
+    <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    {% endblock styles %}
+</head>
+
+<body>
+    <header>
+        <div class='header-bg'>
+            <div class='topmenu'>
+            {{page_name}}
+            </div>
+        </div>
+    </header>
+    {%block content%} {%endblock content%}
+</body>
+
+</html>

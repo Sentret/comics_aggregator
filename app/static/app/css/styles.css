@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
+
+
+
+/*стили для хедера */
+
+header {
+
+
+    display: block;
+    background-color: black;
+}
+
+p {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    color: white;
+    font-size: 10pt;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.topmenu {
+    height: 50px;
+    width: 30%;
+    background-color: white;
+    border: 2px solid #000;
+    margin-left: 35%;
+    margin-top: 75px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.header-bg {
+    width: 100%;
+    display: inline-block;
+    height: 100px;
+}
+
+
+
+
+
+
+/*стили для сайд меню*/
+a
+{
+    color:black;
+}
+
+a:link{
+  text-decoration: none;
+  color:black;
+}
+
+
+
+.sidebar {
+    margin: 1%;
+    margin-top: 45px;
+    float: left;
+    background-color: white;
+    display: inline;
+    height: 100%;
+    width: 13%;
+    border: 2px solid #000;
+}
+
+
+
+.menu {
+    display: block;
+    height: 50px;
+
+    
+    
+
+   
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.menu:hover {
+    display: block;
+    height: 50px;
+
+    background-color: #e8ded5;
+    
+
+   
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+
+
+
+/*стили для body*/
+
+body {
+
+    /* background-color: #28282b*/
+}
+
+
+img {
+
+    padding-top: 10px;
+    height: 200px;
+    width: auto;
+    max-width: 200px;
+    border-width: 6px;
+    border-color: white;
+    border-radius: 5;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    padding-top: 10px;
+    margin: 5px;
+    overflow: hidden;
+    height: 50px;
+    font-size: 9pt;
+}
+
+span {}
+
+.price {
+    height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+
+
+
+
+/*стили для таблицы*/
+
+.div-table {
+    margin-top: 30px;
+    display: table;
+    width: auto;
+}
+
+
+.div-table-row {
+
+    display: table-row;
+    width: auto;
+    clear: both;
+}
+
+.comics-div {
+
+    height: 300px;
+    position: relative;
+}
+
+.div-table-col {
+
+    float: left;
+    display: table-column;
+    width: 200px;
+
+    margin: 5px;
+}

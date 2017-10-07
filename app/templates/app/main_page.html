@@ -1,0 +1,52 @@
+{% extends "app/base.html" %} {% load staticfiles %} {% block content %}
+<div class="sidebar">
+    <a href="{% url 'main_page' shop='lavkaapelsin' %}">
+    <div class="menu">
+        Лавка "Апельсин"
+    </div>
+    </a>
+
+    <a href="{% url 'main_page' shop='chookandgeek' %}">
+    <div class="menu">
+        Чук и Гик
+    </div>
+    </a>
+    <a href="{% url 'main_page' shop='ozon' %}">
+    <div class="menu">
+        Озон
+    </div>
+    </a>
+    <a href="{% url 'main_page' shop='labirint' %}">
+    <div class="menu">
+        Лабиринт
+    </div>
+    </a>
+ 
+</div>
+<div class='container'>
+    <div class='div-table'>
+        {% for group in content %}
+        <div class="div-table-row">
+            {% for comics in group %}
+            <div class="div-table-col">
+                <div class='comics-div'>
+                    <img src="{{comics.image_url}}">
+                    <div class='title'>
+                        <span>{{ comics.title}}</span>
+                    </div>
+                    <div class='price'>
+                        <span>Цена: {{ comics.price}}
+
+                </div>
+                    
+                    
+            </div>
+        </div>
+            {% endfor %}
+
+    </div>
+        {% endfor %}
+    
+</div>
+</div>
+{% endblock content %}
