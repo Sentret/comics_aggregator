@@ -1,16 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
-
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 /*стили для хедера */
-
-header {
-
-
-    display: block;
-    background-color: black;
-}
 
 p {
     width: 100%;
@@ -25,12 +14,13 @@ p {
 
 .topmenu {
     height: 50px;
-    width: 30%;
-    background-color: white;
-    border: 2px solid #000;
-    margin-left: 35%;
-    margin-top: 75px;
-    border-radius: 10px;
+    
+    background-color: #45d3d8;
+
+    color:white;
+    font-size: 15pt;
+    margin-top: 125px;
+    
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
@@ -39,7 +29,8 @@ p {
 .header-bg {
     width: 100%;
     display: inline-block;
-    height: 100px;
+    height: 150px;
+    background-image: url('../header7.png')
 }
 
 
@@ -50,11 +41,13 @@ p {
 /*стили для сайд меню*/
 a
 {
+    
     color:black;
+
 }
 
 a:link{
-  text-decoration: none;
+ 
   color:black;
 }
 
@@ -62,13 +55,13 @@ a:link{
 
 .sidebar {
     margin: 1%;
-    margin-top: 45px;
+    margin-top: 30px;
     float: left;
     background-color: white;
     display: inline;
     height: 100%;
     width: 13%;
-    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
@@ -76,28 +69,11 @@ a:link{
 .menu {
     display: block;
     height: 50px;
-
-    
-    
-
-   
     text-align: center;
     vertical-align: middle;
     line-height: 50px;
 }
 
-.menu:hover {
-    display: block;
-    height: 50px;
-
-    background-color: #e8ded5;
-    
-
-   
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-}
 
 
 
@@ -106,7 +82,7 @@ a:link{
 
 body {
 
-    /* background-color: #28282b*/
+     background-color: #e3e5e8;
 }
 
 
@@ -150,6 +126,8 @@ span {}
     margin-top: 30px;
     display: table;
     width: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 

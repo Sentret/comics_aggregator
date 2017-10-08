@@ -37,4 +37,5 @@ def main_page(request,shop='all'):
 
 
 def cheapest_prize(request):
-	pass
+	pass 
+
